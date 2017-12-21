@@ -7,7 +7,8 @@
     height: 100%;
     top: 0px; 
     left: 0px;
-    position: fixed;  
+    position: fixed; 
+    z-index: 999; 
     .mask-layer{
         background: #000;
         opacity: 0.8;
