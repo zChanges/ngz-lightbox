@@ -1,6 +1,26 @@
 # NgzLightbox
+> 图片点击放大
 
-点击图片放大
+## Installation
+> npm install ngz-lightbox -S
+
+## Use
+```
+// AppModule
+import { NgModule } from '@angular/core';
+import { NgzLightboxModule } from 'ngz-lightbox';
+
+@NgModule({
+  declarations: [AppComponent],
+  imports: [ 
+      BrowserModule, 
+      NgzLightboxModule
+  ],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
+
 
 ## Example
 ```html
